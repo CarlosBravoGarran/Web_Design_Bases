@@ -1,0 +1,12 @@
+/*For general elements*/
+li{
+    color: darkslategrey;
+}
+/*For class*/
+.need{
+    color: red;
+}
+/*For id*/
+#secret_ingredient{
+    color: green;
+}
