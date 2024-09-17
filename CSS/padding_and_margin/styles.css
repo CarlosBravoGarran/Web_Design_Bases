@@ -1,0 +1,24 @@
+.form{
+    background: lightseagreen;
+    padding: 30px;
+    padding-right: 75px;
+
+}
+
+.form_input{
+    background: lightpink;
+    color: darkblue;
+    width: 100%;
+    padding: 9px 12px;
+    margin: 10px;
+}
+
+.form_submit{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: lightsalmon;
+    color: darkblue;
+    width: 50%;
+    margin-left: 25%;
+
+}
