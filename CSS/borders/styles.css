@@ -1,0 +1,12 @@
+div{
+    background-color: lightsteelblue;
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+
+        /* width style color*/
+    border: 5px solid blue;
+    border-right: 3px solid yellow;
+    border-radius: 90px 0 60px 40px;
+}
