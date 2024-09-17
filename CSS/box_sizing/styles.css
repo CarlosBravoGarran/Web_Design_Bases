@@ -23,4 +23,6 @@ body{
 
 /* The content-box makes the box size to apply only to the content, not the padding, border and margin
 
-The border-box makes the box size apply to the border, so all the box is equal to the size given*/
+The border-box makes the box size apply to the border, so all the box is equal to the size given
+
+WE USE BORDER-BOX*/
