@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: lightslategray;
+    margin: 10px;
+}
+
+.box-default{
+    padding: 30px;
+    border: 10px solid black;
+    box-sizing: content-box;
+    }
+
+.box-new{
+    padding: 30px;
+    border: 10px solid black;
+    box-sizing: border-box;
+}
+
+/* The content-box makes the box size to apply only to the content, not the padding, border and margin
+
+The border-box makes the box size apply to the border, so all the box is equal to the size given*/
