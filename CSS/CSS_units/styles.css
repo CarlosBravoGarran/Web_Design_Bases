@@ -1,8 +1,14 @@
+html{
+    font-size: 10px;
+}
+
 div{
     background-color: #cdcdcd;
-    padding: 0.2in;
     font-family:'Times New Roman', Times, serif;
     border-left: 5px solid #f60;
+    padding: 10px;
+    font-size: 18px;
+    height: 15vh;
 }
 
 h1{
@@ -11,11 +17,20 @@ h1{
 }
 
 span{
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 100;
     color: #888;
 }
 
 p{
     color: #333;
+    margin: 0;
+    width: 90%;
+    font-size: 1em;
 }
+
+/* The font's % takes the father's fontsize*/
+/* em multiplies the father's size */
+/* rem multiplies the root's size */
+/* vh takes the full screen heigth size */
+/* vw takes the full screen width size */
