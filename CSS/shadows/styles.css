@@ -1,0 +1,39 @@
+body{
+    background-color: #45e;
+    margin: 0;
+}
+
+h2{
+    color: #000a;
+    text-align: center;
+    margin: 0;
+}
+
+p{
+    line-height: 1.2;
+    text-align: justify;
+    font-size: 90%;
+    text-shadow: 0 0 4px #0afa;
+}
+
+#box{
+    width: 200px;
+    margin: auto;
+    padding: 20px;
+    background: #eeee;
+    margin-top: 20px;
+    box-shadow: 0 0 50px 0px #0007;
+    box-sizing: border-box;
+}
+
+#img{
+    width: 100%;
+    border-radius: 100%;
+    box-shadow: 0 0 20px 0px #0007;
+    margin: auto
+}
+
+#img2{
+    width: 100%;
+    filter: drop-shadow(0 0 5px #0afa);
+}
