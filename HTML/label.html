@@ -4,19 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Textarea</title>
-    <link href="styles/textarea.css" rel="stylesheet">
+    <link href="styles/label.css" rel="stylesheet">
 </head>
 <body>
     <form>
         <h2>Contact form</h2>
         <div class="form_input">
-            <input type="text" name="name" id="name" placeholder="Name">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="John Doe">
         </div>
         <div class="form_input">
-            <input type="email" name="email" id="email" placeholder="Email">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="example@gmail.com">
         </div>
         <div class="form_input">
-            <textarea maxlength="300" name="message" cols="30" rows="10" placeholder="Message"></textarea>
+            <label for="message">Message:</label>
+            <textarea maxlength="300" name="message" id="message" cols="30" rows="10" placeholder="Leave your message..."></textarea>
+        </div>
+        <div class="form_input">
+            <label for="terms">Accept terms and conditions</label>
+            <input type="checkbox" name="terms" class="checkbox" id="terms">
         </div>
     </form>
 </body>

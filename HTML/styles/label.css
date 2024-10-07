@@ -46,3 +46,13 @@ textarea{
     min-height: 100px;
     font-family: sans-serif;
 }
+
+label{
+    font-size: 0.9em;
+    line-height: 2;    
+}
+
+.checkbox{
+    width: auto;
+    height: 10px;
+}
