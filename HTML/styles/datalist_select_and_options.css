@@ -23,6 +23,7 @@ form{
     box-shadow: 0 0 35px #fff2;
     margin-top: 50px;
     border-radius: 8px;
+    margin-bottom: 50px;
 }
 
 .form_input{
@@ -59,4 +60,16 @@ label{
 .checkbox{
     width: auto;
     height: 10px;
+}
+
+fieldset{
+    border: 1px solid #666;
+    border-radius: 4px;
+    padding:0 20px 20px 20px;
+    margin: 20px;
+}
+
+legend{
+    padding: 0 6px;
+    color: #777
 }
