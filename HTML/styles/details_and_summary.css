@@ -1,0 +1,25 @@
+
+body{
+    background-color: #333;
+    color: #ddd;
+}
+
+details{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #777;
+    border-radius: 5px;
+    background-color: #444;
+    color: #ccc;
+}
+
+details[open]{
+    background-color: #555;
+}
+
+summary{
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+}
